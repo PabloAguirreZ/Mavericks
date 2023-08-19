@@ -1,0 +1,110 @@
+body{
+    background-image: url(../IMG/pexels-photo-1072179.jpeg);    
+   
+    background-size: cover;
+}
+.agenda{
+    width: 366px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 25px;
+background: rgba(217, 217, 217, 0.19);
+position: absolute;
+left: 300px;
+top: 112px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: serif;
+
+
+
+
+
+}
+.calendarsvg{
+    position: absolute;
+    width: 87px;
+height: 82px;
+top: 100px;
+
+flex-shrink: 0;
+
+}
+.title{
+    width: 460px;
+    color: #FFF;
+text-align: center;
+font-size: 70px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+left: 260px;
+top: 190px;
+
+}
+.subtitle{ 
+    width: 490px;
+    color: #FFF;
+text-align: center;
+font-size: 25px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+top: 400px;
+left: 250px;
+
+
+}
+.sub2{
+    width: 516px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+top: 500px;
+left: 250px;
+}
+.empezar{
+
+    width: 223px;
+height: 69px;
+flex-shrink: 0;
+border-radius: 25px;
+background: rgba(217, 217, 217, 0.19);
+border: none;
+color: white;
+font-size: 30px;
+position: absolute;
+left: 400px;
+top: 620px;
+
+}
+.empezar:hover{
+    transition: 1s;
+    background-color: rgb(235, 250, 212);
+    color: black;
+   
+
+
+}
+.libretas img{
+    width: 587px;
+    height: 582px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 980px;
+    top: 15%;
+    opacity: 0.7;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+border: none;
+
+
+}
