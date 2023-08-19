@@ -1,5 +1,5 @@
 body{
-    background-image: url(../IMG/pexels-photo-1072179.jpeg);    
+    background-color: #b4c8ad;   
    
     background-size: cover;
 }
@@ -8,11 +8,11 @@ body{
     height: 60px;
     flex-shrink: 0;
     border-radius: 25px;
-background: rgba(217, 217, 217, 0.19);
+background: #a7aaa380;
 position: absolute;
 left: 300px;
 top: 112px;
-color: white;
+color: rgb(0, 0, 0);
 display: flex;
 align-items: center;
 justify-content: center;
@@ -20,7 +20,10 @@ font-family: serif;
 
 
 
-
+.calendarsvg path {
+    fill: black;
+  }
+  
 
 }
 .calendarsvg{
@@ -28,13 +31,14 @@ font-family: serif;
     width: 87px;
 height: 82px;
 top: 100px;
+color: black;
 
 flex-shrink: 0;
 
 }
 .title{
     width: 460px;
-    color: #FFF;
+    color: black;
 text-align: center;
 font-size: 70px;
 font-style: italic;
@@ -47,7 +51,7 @@ top: 190px;
 }
 .subtitle{ 
     width: 490px;
-    color: #FFF;
+    color: black;
 text-align: center;
 font-size: 25px;
 font-style: italic;
@@ -61,9 +65,8 @@ left: 250px;
 }
 .sub2{
     width: 516px;
-    color: #FFF;
+    color: black;
 text-align: center;
-font-family: Inter;
 font-size: 25px;
 font-style: normal;
 font-weight: 800;
@@ -78,9 +81,9 @@ left: 250px;
 height: 69px;
 flex-shrink: 0;
 border-radius: 25px;
-background: rgba(217, 217, 217, 0.19);
+background:#a7aaa380;
 border: none;
-color: white;
+color: black;
 font-size: 30px;
 position: absolute;
 left: 400px;
@@ -97,7 +100,7 @@ top: 620px;
 }
 .libretas img{
     width: 587px;
-    height: 582px;
+    height: 682px;
     flex-shrink: 0;
     position: absolute;
     left: 980px;
@@ -108,3 +111,5 @@ border: none;
 
 
 }
+
+
