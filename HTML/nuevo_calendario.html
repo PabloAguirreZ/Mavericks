@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"><link rel="icon" href="../IMG/logo-removebg-preview.png" type="image/png"> 
+<link rel="stylesheet" href="../CSS/event.css">
+</head>
+<body>
+   <button  type="button" class="btn btn-info" onclick="cambiarDisplay()" id="agregar">Agregar nuevo evento </button> 
+    <div class="agregardetalles">
+        <h1>Nuevo evento</h1>
+       <input type="text" placeholder="Nombre del evento" id="Nombre">
+       <input type="date" placeholder="Fecha del evento" id="Fecha">
+       <input type="datetime" placeholder="Hora" id="Hora">
+       <input type="text" placeholder="Asunto" id="Asunto">
+       <input type="text" placeholder="Lugar" id="Lugar">
+       <button class="btn btn-success" id="guardar" onclick="guardar()">guardar</button>
+    </div>
+    <div class="home">
+    <button onclick="redirecionar()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40"><g id="_01_align_center" data-name="01 align center"><path d="M13.338.833a2,2,0,0,0-2.676,0L0,10.429v10.4a3.2,3.2,0,0,0,3.2,3.2H20.8a3.2,3.2,0,0,0,3.2-3.2v-10.4ZM15,22.026H9V17a3,3,0,0,1,6,0Zm7-1.2a1.2,1.2,0,0,1-1.2,1.2H17V17A5,5,0,0,0,7,17v5.026H3.2a1.2,1.2,0,0,1-1.2-1.2V11.319l10-9,10,9Z"/></g></svg></button>
+    </div>  
+    <div class="imagenn" id="imgg">
+        <img src="../IMG/Character-Design-Animated-Gif.webp"  alt="">
+    </div>  
+    <script src="../JS/new.js"></script>
+</body> 
+</html>

@@ -1,7 +1,8 @@
 body{
     background-color: #b4c8ad;   
-   
+   display: flex;
     background-size: cover;
+    flex-direction: column;
 }
 .agenda{
     width: 366px;
@@ -94,9 +95,7 @@ top: 620px;
     transition: 1s;
     background-color: rgb(235, 250, 212);
     color: black;
-   
-
-
+    animation: neon 0.9s linear infinite;
 }
 .libretas img{
     width: 587px;
@@ -113,3 +112,23 @@ border: none;
 }
 
 
+@keyframes neon {
+  0% {
+    opacity: 0;
+    transform:  scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform:  scale(1.3);
+  }
+  100% {
+    opacity: 0;
+    transform:  scale(1);
+  }}
+
+.svgg{
+position: relative;
+
+left: 50%;
+
+}

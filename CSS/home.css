@@ -13,6 +13,7 @@ body{
     left: 0;
     padding: 10px 20px;
    
+   
     
   display: flex;
             justify-content: space-between;
@@ -31,12 +32,13 @@ body{
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
+    margin: 20px;
 }
 
 
   /* Estilos para el div del footer */
   .footer {
-    background-color: #b4c8ad;
+    background-color: #ecf1ee;
     color: white;
     height: 60px;
     width: 100%;
@@ -94,6 +96,6 @@ body{
   top: -1px;
 }
 .btn-agen:hover{
-  background-color: rgb(106, 241, 146);
-  color: gray;
+  background-color: #91a18a;
+  color: rgb(246, 246, 246);
 }

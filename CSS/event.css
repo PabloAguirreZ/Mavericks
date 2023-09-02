@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Titulos';
+    src: url('../Font/LibreBaskerville-Regular.ttf') format('truetype');}
+body{
+    background-color: #f3f3f3;
+}
+#agregar{position: relative;
+    top: 80px;
+    margin: 10px;
+   border-radius: 10px;
+   left: 70px;
+   height: 70px;
+   width: 260px;
+
+}
+.agregardetalles{
+width: 600px;
+height: 700px;
+background-color: rgba(182, 178, 178, 0.177);
+position: relative;
+left: 35%;
+border-radius: 40px;
+display: none;
+flex-direction: column;
+justify-content: center;
+border-color: black;
+border: 5px;
+}
+
+.agregardetalles input{
+  margin: 10px;  
+  border-radius: 30px;
+  border: none;
+  height: 45px;
+  
+
+}
+
+.agregardetalles h1{
+    position: relative;
+    left: 27%;
+    top: -6%;
+    font-family: 'Titulos', 'Courier New', Courier, monospace ;
+    font-weight: 600;
+}
+
+#guardar{
+    height: 40px;
+    border-radius: 30px;
+    margin: 30px;
+}
+.home{
+    position: absolute; /* Asegura que el div se posicione de manera absoluta */
+    z-index: 1;
+    left: 85%;
+   
+   
+}
+.home button{
+   width: 60px;
+   height: 60px;
+    border: none;
+    border-radius: 30px;
+    
+}
+.home button:hover{
+    background-color: rgb(50, 165, 154);
+
+
+}
+.imagenn{
+    position: absolute;
+    left: 30%;
+
+}
