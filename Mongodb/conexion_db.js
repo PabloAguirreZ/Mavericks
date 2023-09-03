@@ -1,5 +1,5 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://Juan_Osorio:(aca va la password )@myfirstdb.cce896t.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://Juan_Osorio:@myfirstdb.cce896t.mongodb.net/?retryWrites=true&w=majority";
 
 
 const client = new MongoClient(uri, {
@@ -16,7 +16,7 @@ async function run() {
     await client.connect();
     
     await client.db("admin").command({ ping: 1 });
-    console.log("good se conecto");
+    console.log("conexion exitosa");
   } finally {
     
     await client.close();
