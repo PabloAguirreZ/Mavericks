@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"><link rel="icon" href="../IMG/logo-removebg-preview.png" type="image/png"> 
 <link rel="stylesheet" href="../CSS/event.css">
 </head>
 <body>
    <button  type="button" class="btn btn-info" onclick="cambiarDisplay()" id="agregar">Agregar nuevo evento </button> 
+   <button type="button" class="alert-info" id="vereven" onclick="ver_eventos()"> <a href="#eventos">Ver eventos</a>
+    </button>
     <div class="agregardetalles">
         <h1>Nuevo evento</h1>
        <input type="text" placeholder="Nombre del evento" id="Nombre">
@@ -24,6 +27,24 @@
     <div class="imagenn" id="imgg">
         <img src="../IMG/Character-Design-Animated-Gif.webp"  alt="">
     </div>  
+    <div class="eventoss" id="eventos">
+        <div class="container mt-4">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Fecha</th>
+                  <th>Hora</th>
+                  <th>Asunto</th>
+                  <th>Lugar</th>
+                </tr>
+              </thead>
+              <tbody class="eventos"></tbody>
+            </table>
+          </div>
+          
+          
+    </div>
     <script src="../JS/new.js"></script>
 </body> 
 </html>
