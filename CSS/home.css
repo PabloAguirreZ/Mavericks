@@ -28,7 +28,7 @@ body{
     margin-left: auto;
   }
   .nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
@@ -89,6 +89,11 @@ body{
   position: absolute;
   left: 200px;
   top: -10px;
+  color: black;
+}
+
+.calendarsvg path {
+  fill: black;
 }
 .calendarsvg{
   position: absolute;

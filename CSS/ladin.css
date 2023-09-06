@@ -28,13 +28,13 @@ font-family: serif;
 
 }
 .calendarsvg{
-    position: absolute;
-    width: 87px;
-height: 82px;
-top: 100px;
-color: black;
+  position: absolute;
+  width: 87px;
+  height: 82px;
+  top: 100px;
+  color: black;
 
-flex-shrink: 0;
+  flex-shrink: 0;
 
 }
 .title{
