@@ -1,90 +1,81 @@
-body{
-    background-color: #ecf1ee;
-    color: white; /* Color del texto */
-      
+body {
+  background-color: #ecf1ee;
+  color: white; /* Color del texto */
 }
 .nav {
   font-size: 20px;
-    background-color: #b4c8ad;
-    height: 130px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 10px 20px;
-   
-   
-    
+  background-color: #b4c8ad;
+  height: 130px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+
   display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: row-reverse;
-        
-        } 
-  
-  .nav-derecha{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-  .nav a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-    margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
-
-  /* Estilos para el div del footer */
-  .footer {
-    background-color: #ecf1ee;
-    color: white;
-    height: 60px;
-    width: 100%;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-  .titulo{ font-size: 100px;
-    color: black;
-    position: absolute;
-    top: 220px;
-    left: 35%;
-    font-family: initial; 
-    font-weight: 100;
-
+.nav-derecha {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
-.p1{
-    font-size: 30px;
-    color: black;
-    position: absolute;
-    top: 390px;
-    left: 42%;
-    font-family: initial; 
-    font-weight: 100;
-
-
+.nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  margin: 20px;
 }
-.btn-agen{
+
+/* Estilos para el div del footer */
+.footer {
+  background-color: #ecf1ee;
+  color: white;
+  height: 60px;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.titulo {
+  font-size: 100px;
+  color: black;
+  position: absolute;
+  top: 220px;
+  left: 35%;
+  font-family: initial;
+  font-weight: 100;
+}
+.p1 {
+  font-size: 30px;
+  color: black;
+  position: absolute;
+  top: 390px;
+  left: 42%;
+  font-family: initial;
+  font-weight: 100;
+}
+.btn-agen {
   width: 223px;
   height: 69px;
   flex-shrink: 0;
   border-radius: 25px;
-  background:#bed0ba;
+  background: #bed0ba;
   border: none;
   color: rgb(255, 255, 255);
   font-size: 30px;
   position: absolute;
-    top: 490px;
-    left: 42%;
-
-
+  top: 490px;
+  left: 42%;
 }
-.agenda{
+.agenda {
   font-size: 50px;
   position: absolute;
   left: 200px;
@@ -95,12 +86,12 @@ body{
 .calendarsvg path {
   fill: black;
 }
-.calendarsvg{
+.calendarsvg {
   position: absolute;
   left: 1px;
   top: -1px;
 }
-.btn-agen:hover{
+.btn-agen:hover {
   background-color: #91a18a;
   color: rgb(246, 246, 246);
 }

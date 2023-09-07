@@ -1,101 +1,100 @@
-body{
-    background-color: #b4c8ad;   
-    display: flex;
-    background-size: cover;
-    flex-direction: column;
+body {
+  background-color: #b4c8ad;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
 }
 
-.imagensvg{
-    width: 598px;
-    height: 805px;
-    flex-shrink: 0;
-    position: absolute;
-    left: 870px;
-    top: -5%;
+.imagensvg {
+  width: 598px;
+  height: 805px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 870px;
+  top: -5%;
 }
 
-.agenda{
-    width: 366px;
-    height: 60px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    background: #a7aaa380;
-    position: absolute;
-    left: 100px;
-    top: 35px;
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: serif;
+.agenda {
+  width: 366px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #a7aaa380;
+  position: absolute;
+  left: 100px;
+  top: 35px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
 }
 
-.calendarsvg{
-    position: absolute;
-    width: 87px;
-    height: 82px;
-    top: 20px;
-    color: black;
-    flex-shrink: 0;
+.calendarsvg {
+  position: absolute;
+  width: 87px;
+  height: 82px;
+  top: 20px;
+  color: black;
+  flex-shrink: 0;
 }
 
-.redes-sociales{
-    position: fixed;
-    top: 35px;
-    right: 30px;
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 15px;
+.redes-sociales {
+  position: fixed;
+  top: 35px;
+  right: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
 }
 
-.redes-sociales svg{ 
-    width: 40px;
-    height: 40px;
-    fill: black;
+.redes-sociales svg {
+  width: 40px;
+  height: 40px;
+  fill: black;
 }
 
-.login-elements{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    margin-top: 100px;
-    margin-left: 142px;
-    
+.login-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 142px;
 }
 
-.login-elements input{
-    width: 192px;
-    height: 35px;
-    border-radius: 24px;
-    background: rgba(167, 169, 163, 0.54);
-    backdrop-filter: blur(2px);
-    margin: 10px;
-    padding: 10px;
+.login-elements input {
+  width: 192px;
+  height: 35px;
+  border-radius: 24px;
+  background: rgba(167, 169, 163, 0.54);
+  backdrop-filter: blur(2px);
+  margin: 10px;
+  padding: 10px;
 }
 
-.login-elements h1{
-    color: #000;
-    font-family: Inter;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    margin-left: 20px;
+.login-elements h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
 }
 
-#Registrarse{
-    border-radius: 24px;
-    background: rgba(195, 200, 184, 0.43);
-    backdrop-filter: blur(2px);
-    width: 150px;
-    height: 35px;
-    margin-left: 320px;
+#Registrarse {
+  border-radius: 24px;
+  background: rgba(195, 200, 184, 0.43);
+  backdrop-filter: blur(2px);
+  width: 150px;
+  height: 35px;
+  margin-left: 320px;
 }
 
-#Email{
-    width: 430px;
+#Email {
+  width: 430px;
 }
 
-#Contrasena{
-    width: 250px;
+#Contrasena {
+  width: 250px;
 }
