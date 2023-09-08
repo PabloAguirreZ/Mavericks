@@ -3,6 +3,7 @@ body {
   display: flex;
   background-size: cover;
   flex-direction: column;
+  overflow-x: hidden;
 }
 .agenda {
   width: 366px;
@@ -11,61 +12,66 @@ body {
   border-radius: 25px;
   background: #a7aaa380;
   position: absolute;
-  left: 300px;
-  top: 112px;
+  left: 100px;
+  top: 35px;
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: serif;
-
-  .calendarsvg path {
-    fill: black;
-  }
 }
+
+.calendarsvg path {
+  fill: black;
+}
+
 .calendarsvg {
   position: absolute;
   width: 87px;
   height: 82px;
-  top: 100px;
+  top: 20px;
   color: black;
-
   flex-shrink: 0;
 }
+
+.mayor{
+  margin-left: 10px;
+}
+
 .title {
   width: 460px;
   color: black;
   text-align: center;
   font-size: 70px;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   line-height: normal;
   position: absolute;
   left: 260px;
-  top: 190px;
+  top: 70px;
 }
 .subtitle {
   width: 490px;
   color: black;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   font-style: italic;
   font-weight: 300;
   line-height: normal;
   position: absolute;
-  top: 400px;
+  top: 270px;
   left: 250px;
 }
 .sub2 {
   width: 516px;
   color: black;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   position: absolute;
-  top: 500px;
+  top: 355px;
   left: 250px;
 }
 .empezar {
@@ -79,7 +85,7 @@ body {
   font-size: 30px;
   position: absolute;
   left: 400px;
-  top: 620px;
+  top: 470px;
 }
 .empezar:hover {
   transition: 1s;
@@ -87,16 +93,59 @@ body {
   color: black;
   animation: neon 0.9s linear infinite;
 }
-.libretas img {
-  width: 587px;
-  height: 682px;
+.libretas {
+  width: 400px;
+  height: 400px;
   flex-shrink: 0;
   position: absolute;
-  left: 980px;
-  top: 15%;
-  opacity: 0.7;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  left: 780px;
   border: none;
+}
+
+.pie-pagina{
+  position: absolute;
+  background-color: #A7A9A3;
+  bottom: 0%;
+  width: 100%;
+  height: 130px;
+  left: 0%;
+}
+
+.pie-pagina h2{
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.redes-sociales {
+  position: fixed;
+  bottom: 25px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 80px;
+}
+
+.icons-redes{
+  display: flex;
+  margin-left: 10px;
+  gap: 150px;
+}
+
+.whatsapp{
+  width: 40px;
+  height: 40px;
+}
+
+.instagram{
+  width: 40px;
+  height: 40px;
+}
+
+.facebook{
+  width: 40px;
+  height: 40px;
 }
 
 @keyframes neon {
