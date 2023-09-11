@@ -47,24 +47,26 @@ body {
   display: flex;
   flex-direction: row-reverse;
   gap: 15px;
-}
-
-.redes-sociales1 svg {
   width: 40px;
-  height: 40px;
-  fill: black;
 }
 
-.login-elements {
+.redes-sociales1 i {
+  font-size: 40px;
+}
+
+/*  -----------------Crear cuenta---------------------*/
+.Sigin {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
   margin-top: 100px;
   margin-left: 142px;
+  transition: all 1s ease;
 }
 
-.login-elements input {
+.Sigin input {
+  justify-content: center;
   width: 192px;
   height: 35px;
   border-radius: 24px;
@@ -73,42 +75,105 @@ body {
   margin: 10px;
   padding: 10px;
   border: 1px solid #a8a8a8;
+
 }
 
-.login-elements input:focus{
+.Sigin input:focus{
   border-color: #000;
   outline: none;
 }
 
-.login-elements h1 {
+.Sigin h1 {
   color: #000;
   font-family: Inter;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
   margin-left: 20px;
+  margin: 10px;
 }
 
+input[type="button"][value="Crear cuenta"]{
+  border-radius: 0%;
+  width: 120px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+input[type="button"][value="Ingresar"]{
+  border-radius: 0%;
+  width: 120px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+
 #Registrarse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 24px;
   background: rgba(125, 132, 109, 0.43);
   backdrop-filter: blur(2px);
   width: 150px;
-  height: 35px;
+  height: 38px;
   margin-left: 320px;
   border: #a8a8a8;
-  font-size: medium;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+#Registrarse:hover{
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon-email{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon-email i{
+  position: absolute;
+  font-size: 22px;
+  right: 900px;
+  cursor: pointer;
+}
+
+.icon-password{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon-password i{
+  position: absolute;
+  font-size: 22px;
+  right: 1070px;
+  cursor: pointer;
 }
 
 #Email {
-  width: 430px;
+  width: 390px;
   position: relative;
+  padding-right: 46px;
 }
 
 #Contrasena {
   width: 250px;
 }
 
+
+/*-------------pie de pagina------------------------*/
 .pie-pagina{
   position: absolute;
   background-color: #A7A9A3;
@@ -124,33 +189,157 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.pie-pagina p{
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
 
 .redes-sociales {
   position: fixed;
   bottom: 25px;
-  margin-left: 50px;
+  margin-left: 10px;
   display: flex;
   flex-direction: row-reverse;
-  gap: 80px;
+  gap: 10px;
 }
 
-.icons-redes{
+.redes-sociales p{
   display: flex;
-  margin-left: 10px;
-  gap: 150px;
+  margin-left: -60px;
+  gap: 100px;
+  font-size: 20px;
 }
 
-.whatsapp{
-  width: 40px;
-  height: 40px;
+.icons-redes {
+  display: flex;
+  margin-left: 0px;
+  gap: 60px;
+  font-size: 40px;
+  align-items: center;
 }
 
-.instagram{
-  width: 40px;
-  height: 40px;
+/*--------------Iniciar sesion----------------*/
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 200px;
+  transition: all 1s ease;
 }
 
-.facebook{
-  width: 40px;
-  height: 40px;
+.Login input {
+  justify-content: center;
+  width: 192px;
+  height: 35px;
+  border-radius: 24px;
+  background: rgba(167, 169, 163, 0.54);
+  backdrop-filter: blur(2px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #a8a8a8;
+
+}
+
+.Login input:focus{
+  border-color: #000;
+  outline: none;
+}
+
+.Login h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
+  margin: 10px;
+}
+
+input[type="button"][value="Crear cuenta"]{
+  border-radius: 0%;
+  width: 120px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+input[type="button"][value="Ingresar"]{
+  border-radius: 0%;
+  width: 120px;
+  background-color: transparent;
+  border: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+
+#Iniciar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background: rgba(125, 132, 109, 0.43);
+  backdrop-filter: blur(2px);
+  width: 150px;
+  height: 38px;
+  margin-left: 320px;
+  border: #a8a8a8;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+#Iniciar:hover{
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon-email{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon-email i{
+  position: absolute;
+  font-size: 22px;
+  left: 280px;
+  cursor: pointer;
+}
+
+.icon-password{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon-password i{
+  position: absolute;
+  font-size: 22px;
+  left: 280px;
+  cursor: pointer;
+}
+
+#Email {
+  width: 250px;
+  position: relative;
+  padding-right: 46px;
+}
+
+#Contrasena {
+  width: 285px;
+}
+
+.hide{
+  position: absolute;
+  transform: translateY(-300%);
 }
