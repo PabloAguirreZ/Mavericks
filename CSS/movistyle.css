@@ -1,0 +1,152 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.navv{
+    background-color: rgb(21, 38, 86);
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+  
+.img{
+    height: 100%;
+    width: 19%;
+    background-color: rgba(0, 0, 0, 0.427);
+    flex: 0 0 calc(33.33% - 10px); 
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 3px;
+    
+  
+}
+
+.img:hover img{
+    display: none;
+   
+   }
+.img:hover p{
+ display:block;
+}
+ 
+ 
+.img p{
+
+   display: none;
+   color:white;
+}
+.img img{
+ width: 100%;
+ height: 100%;
+ 
+ 
+  
+}
+#comen{
+  margin-right: 10px;
+
+}
+
+.footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  bottom: 10px;
+  left: 10px;
+  width: 100%;
+  background-color: #2a2a2a;
+  color: #c7c7c7;
+  padding: 20px;
+  font-size: 18px;
+  text-align: left;
+  }
+  .btn {
+    width: 100px;
+    height: 30px;
+    margin: 0.5em;
+    background: rgb(13, 50, 160);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.625em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 10px;
+    
+   
+
+   }
+   
+   button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 38, 86);
+   }
+   
+   button:after {
+    content: "";
+    background: rgb(20, 79, 255);
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+   
+   .Foro{
+    color:white;
+   }
+  
+
+  
+
+  @media (max-width: 768px) {
+    .img {
+      flex: 0 0 calc(50% - 10px); 
+
+    }
+  h1{
+    font-size: medium;
+
+
+  }
+}
+  
