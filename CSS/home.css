@@ -1,99 +1,70 @@
 body {
-  background-color: #ecf1ee;
+  background-color: #d9d9d9c6;
   color: white; /* Color del texto */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+
 }
 .nav {
   font-size: 20px;
-  background-color: #b4c8ad;
-  height: 130px;
+  background-color: rgb(21, 38, 86);
+  height: max-content;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
   padding: 10px 20px;
-
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  flex-direction: row-reverse;
+  padding-left: 10%;
+  gap: 10%;
+  padding: 3px;
+}
+.cont{
+display: flex;
+flex-direction: column;
+width: auto;
+height: auto;
+flex-wrap: wrap;
+margin-top: 10%;
+color: black;
+}
+.cont h1{
+
+  font-size: 45px;
+}
+.cont p{
+  font-size: 39px;
 }
 
-.nav-derecha {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-.nav a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-  margin: 20px;
-}
 
-/* Estilos para el div del footer */
-.footer {
-  background-color: #ecf1ee;
-  color: white;
-  height: 60px;
-  width: 100%;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.titulo {
-  font-size: 100px;
-  color: black;
-  position: absolute;
-  top: 220px;
-  left: 35%;
-  font-family: initial;
-  font-weight: 100;
-}
-.p1 {
-  font-size: 30px;
-  color: black;
-  position: absolute;
-  top: 390px;
-  left: 42%;
-  font-family: initial;
-  font-weight: 100;
-}
+
+
+
+
+
 .btn-agen {
   width: 223px;
   height: 69px;
   flex-shrink: 0;
   border-radius: 25px;
-  background: #bed0ba;
+  background: rgb(21, 38, 86);
   border: none;
   color: rgb(255, 255, 255);
   font-size: 30px;
-  position: absolute;
-  top: 490px;
-  left: 42%;
-}
-.agenda {
-  font-size: 50px;
-  position: absolute;
-  left: 200px;
-  top: -10px;
-  color: black;
+  
 }
 
-.calendarsvg path {
-  fill: black;
-}
-.calendarsvg {
-  position: absolute;
-  left: 1px;
-  top: -1px;
-}
+
+
 
 
 .btn-agen:hover {
   background-color: #91a18a;
-  color: rgb(246, 246, 246);
+  color: rgb(12, 47, 135);
 }

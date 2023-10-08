@@ -1,4 +1,4 @@
 let redirecionar=()=> {
 
-    window.location.href = "../HTML/nuevo_calendario.html"; 
+    window.location.href = "../HTML/movies.html"; 
   }
