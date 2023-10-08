@@ -33,4 +33,3 @@ botonLogin2.addEventListener("click", e =>{
     botonSigin2.classList.add("activo");
     botonLogin2.classList.remove("activo");
 })
-

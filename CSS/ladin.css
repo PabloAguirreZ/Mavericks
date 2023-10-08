@@ -1,170 +1,160 @@
 body {
-  background-color: #b4c8ad;
+  background-color: #d9d9d9c6;
   display: flex;
-  background-size: cover;
   flex-direction: column;
   overflow-x: hidden;
-}
-.agenda {
-  width: 366px;
-  height: 60px;
-  flex-shrink: 0;
-  border-radius: 25px;
-  background: #a7aaa380;
-  position: absolute;
-  left: 100px;
-  top: 35px;
-  color: rgb(0, 0, 0);
-  display: flex;
-  align-items: center;
   justify-content: center;
-  font-family: serif;
+  align-items: flex-start;  
+  margin: 0%;
+    
+}
+.Tit{
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5%;
 }
 
-.calendarsvg path {
-  fill: black;
+
+.navv{
+   background-color: rgb(21, 38, 86);
+  width: 100%;
+  height: 60px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  color:white;
+  padding-left: 6%;
+  
 }
 
-.calendarsvg {
-  position: absolute;
-  width: 87px;
-  height: 82px;
-  top: 20px;
-  color: black;
-  flex-shrink: 0;
-}
 
-.mayor{
-  margin-left: 10px;
-}
 
-.title {
-  width: 460px;
-  color: black;
-  text-align: center;
-  font-size: 70px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: normal;
-  position: absolute;
-  left: 260px;
-  top: 70px;
-}
-.subtitle {
-  width: 490px;
-  color: black;
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-  font-weight: 300;
-  line-height: normal;
-  position: absolute;
-  top: 270px;
-  left: 250px;
-}
-.sub2 {
-  width: 516px;
-  color: black;
-  text-align: center;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  position: absolute;
-  top: 355px;
-  left: 250px;
-}
-.empezar {
-  width: 223px;
-  height: 69px;
-  flex-shrink: 0;
-  border-radius: 25px;
-  background: #a7aaa380;
-  border: none;
-  color: black;
-  font-size: 30px;
-  position: absolute;
-  left: 400px;
-  top: 470px;
-}
-.empezar:hover {
-  transition: 1s;
-  background-color: rgb(235, 250, 212);
-  color: black;
-  animation: neon 0.9s linear infinite;
-}
-.libretas {
-  width: 400px;
-  height: 400px;
-  flex-shrink: 0;
-  position: absolute;
-  left: 780px;
-  border: none;
-}
-
+/*--------------------------pie de pagina---------------------------*/
 .pie-pagina{
-  position: absolute;
-  background-color: #A7A9A3;
+  position: fixed;
+  background-color: rgb(21, 38, 86);
   bottom: 0%;
   width: 100%;
-  height: 130px;
+  height: 110px;
   left: 0%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
+
 .pie-pagina h2{
-  margin-left: 10px;
+  
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: #bdbcbce2;
+}
+.pie-pagina p{
+  
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
 }
 
 .redes-sociales {
-  position: fixed;
-  bottom: 25px;
-  margin-left: 50px;
+ 
+  margin-left: 10px;
   display: flex;
   flex-direction: row-reverse;
-  gap: 80px;
+  gap: 10px;
+  
 }
 
-.icons-redes{
+.redes-sociales p{
   display: flex;
-  margin-left: 10px;
-  gap: 150px;
+  margin-left: -60px;
+  gap: 100px;
+  font-size: 20px;
+  
 }
 
-.whatsapp{
-  width: 40px;
-  height: 40px;
+.icons-redes {
+  display: flex;
+  margin-left: 0px;
+  gap: 60px;
+  font-size: 40px;
+  align-items: center;
+  color: #bdbcbce2;
+  
 }
 
-.instagram{
-  width: 40px;
-  height: 40px;
-}
 
-.facebook{
-  width: 40px;
-  height: 40px;
-}
+/*--------------------------Login--------------------------*/
 
-@keyframes neon {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.3);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1);
-  }
-}
+.h1{
+color: rgb(88, 87, 87);
 
-.svgg {
+}
+h2{
+  margin: 0%;
+}
+#login{
+  margin-top: 30px;
   position: relative;
-
-  left: 50%;
+  top: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px;
+  padding: 20px;
+  background-color: #bdbcbce2;
+  border-radius: 30px;
+  margin-left: 5%;
+  
 }
+input{
+  
+border-radius: 30px;
+border: none;
+height: 30px;
+margin: 8px;
+}
+
+
+
+/*------crear cuenta-----------*/
+.h1{
+  color: rgb(88, 87, 87);
+  
+  }
+  h2{
+    margin: 0%;
+  }
+  #crear{
+    margin-top: 30px;
+    position: relative;
+    top: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+    background-color: #bdbcbce2;
+    border-radius: 30px;
+    margin-left: 5%;
+    
+  }
+  input{
+    
+  border-radius: 30px;
+  border: none;
+  height: 30px;
+  margin: 8px;
+  }
+
+  .hide{
+    position: absolute;
+    transform: translateY(-300%);
+  }
+
+
+
+  
