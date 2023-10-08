@@ -97,6 +97,7 @@ h2{
   margin: 0%;
 }
 #login{
+  position: absolute;
   margin-top: 30px;
   position: relative;
   top: 30%;
@@ -130,9 +131,9 @@ margin: 8px;
   }
 
   #crear{
+    position: absolute;
+    top: 20%;
     margin-top: 30px;
-    position: relative;
-    top: 30%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -141,11 +142,12 @@ margin: 8px;
     background-color: #bdbcbce2;
     border-radius: 30px;
     margin-left: 5%; 
+    transition: top 2s linear;
+    
   }
 
 
-  input{
-    
+  input{  
   border-radius: 30px;
   border: none;
   height: 30px;
