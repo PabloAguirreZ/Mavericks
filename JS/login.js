@@ -1,35 +1,28 @@
-
-const botonSigin1 = document.getElementById("boton-Sigin1");
-const botonLogin1 = document.getElementById("boton-Login1");
-const botonSigin2 = document.getElementById("boton-Sigin2");
-const botonLogin2 = document.getElementById("boton-Login2");
-const CrearCuenta = document.querySelector(".Sigin");
+const botonSigin = document.getElementById("boton-iniciar");
+const botonLogin = document.getElementById("boton-sigin");
+const CrearCuenta = document.querySelector(".crear-cuenta");
 const IniciarSesion = document.querySelector(".Login");
 
-botonSigin1.addEventListener("click", e =>{
-    CrearCuenta.classList.add("hide");
-    IniciarSesion.classList.remove("hide")
-    botonLogin1.classList.add("activo");
-    botonSigin1.classList.remove("activo");
-})
+// Evento onclick del botón "Registrarse"
+botonSigin.addEventListener("click", e => {
+  // Oculta el div "Crear cuenta"
+  CrearCuenta.classList.add("hide");
+  // Muestra el div "Iniciar sesión"
+  IniciarSesion.classList.remove("hide");
+  // Establece el botón "Iniciar sesión" como activo
+  botonLogin.classList.add("activo");
+  // Establece el botón "Registrarse" como inactivo
+  botonSigin.classList.remove("activo");
+});
 
-botonLogin1.addEventListener("click", e =>{
-    IniciarSesion.classList.add("hide");
-    CrearCuenta.classList.remove("hide");
-    botonSigin1.classList.add("activo");
-    botonLogin1.classList.remove("activo");
-})
-
-botonSigin2.addEventListener("click", e =>{
-    CrearCuenta.classList.add("hide");
-    IniciarSesion.classList.remove("hide");
-    botonLogin2.classList.add("activo");
-    botonSigin2.classList.remove("activo");
-})
-
-botonLogin2.addEventListener("click", e =>{
-    IniciarSesion.classList.add("hide");
-    CrearCuenta.classList.remove("hide");
-    botonSigin2.classList.add("activo");
-    botonLogin2.classList.remove("activo");
-})
+// Evento onclick del botón "Iniciar sesión"
+botonLogin.addEventListener("click", e => {
+  // Oculta el div "Iniciar sesión"
+  IniciarSesion.classList.add("hide");
+  // Muestra el div "Crear cuenta"
+  CrearCuenta.classList.remove("hide");
+  // Establece el botón "Registrarse" como activo
+  botonSigin.classList.add("activo");
+  // Establece el botón "Iniciar sesión" como inactivo
+  botonLogin.classList.remove("activo");
+});

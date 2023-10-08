@@ -128,6 +128,7 @@ margin: 8px;
   h2{
     margin: 0%;
   }
+
   #crear{
     margin-top: 30px;
     position: relative;
@@ -139,9 +140,10 @@ margin: 8px;
     padding: 20px;
     background-color: #bdbcbce2;
     border-radius: 30px;
-    margin-left: 5%;
-    
+    margin-left: 5%; 
   }
+
+
   input{
     
   border-radius: 30px;
@@ -152,7 +154,7 @@ margin: 8px;
 
   .hide{
     position: absolute;
-    transform: translateY(-300%);
+    transform: translateY(-600%);
   }
 
 
