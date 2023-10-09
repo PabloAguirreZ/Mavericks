@@ -6,12 +6,15 @@ body {
   justify-content: center;
   align-items: flex-start;  
   margin: 0%;
+  background-image: url(../IMG/fondo.jpg);
+  background-size: cover;
     
 }
 .Tit{
   justify-content: center;
   align-items: flex-start;
   padding-left: 5%;
+  color: white;
 }
 
 
@@ -106,7 +109,7 @@ h2{
   flex-direction: row;
   gap: 15px;
   padding: 20px;
-  background-color: #bdbcbce2;
+  background-color: #bdbcbc8d;
   border-radius: 30px;
   margin-left: 5%;
   
@@ -139,7 +142,7 @@ margin: 8px;
     flex-direction: row;
     gap: 15px;
     padding: 20px;
-    background-color: #bdbcbce2;
+    background-color: #bdbcbc68;
     border-radius: 30px;
     margin-left: 5%; 
     transition: top 2s linear;
