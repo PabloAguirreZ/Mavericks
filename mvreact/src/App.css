@@ -1,0 +1,100 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+.movie-carousel {
+  width: 90%; 
+  margin: 0 auto; 
+  max-width: 100%; 
+}
+
+.movie-item {
+  position: relative;
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.movie-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.movie-item:hover img {
+  transform: scale(1.1);
+}
+
+.movie-item:hover .movie-info {
+  opacity: 1;
+}
+
+
+.navv {
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+.slick-prev,
+.slick-next {
+  color: #000; 
+  font-size: 0; 
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  position: absolute; 
+  z-index: 1; 
+}
+
+.slick-prev {
+  left: -50px; 
+}
+
+.slick-next {
+  right: -50px; 
+}
+
+
+.slick-prev::before,
+.slick-next::before {
+  content: '\2039'; 
+  font-size: 54px; 
+}
+
+.slick-next::before {
+  content: '\203A'; 
+}
+
